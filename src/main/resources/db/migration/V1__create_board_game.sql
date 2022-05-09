@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS board_games (
+  id BIGSERIAL PRIMARY KEY,
+  name VARCHAR(255) NOT NULL UNIQUE,
+  description TEXT
+);
